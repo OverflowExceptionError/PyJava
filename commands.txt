@@ -1,0 +1,72 @@
+Microsoft Windows [Version 10.0.19043.1645]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\     \Desktop\PyJava>py pyjava.py 20lines com.capplesoft.LimitedSpace debug
+pygame 2.1.2 (SDL 2.0.18, Python 3.10.2)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Oops! A PyJava applet error has occured and PyJava had to stop!
+To show the error, we will cause another error!
+Traceback (most recent call last):
+  File "C:\Users\     \Desktop\PyJava\pyjava.py", line 33, in <module>
+    MainClass.EntryPoint(args)
+  File "C:\Users\     \Desktop\PyJava\applet\com\capplesoft\LimitedSpace.py", line 10, in EntryPoint
+    exit()
+  File "C:\Users\     \AppData\Local\Python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\     \Desktop\PyJava\pyjava.py", line 37, in <module>
+    raise Exception()
+Exception
+
+C:\Users\     \Desktop\PyJava>py pyjava.py 30lines com.capplesoft.LessLimitedSpace debug
+pygame 2.1.2 (SDL 2.0.18, Python 3.10.2)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Oops! A PyJava applet error has occured and PyJava had to stop!
+To show the error, we will cause another error!
+Traceback (most recent call last):
+  File "C:\Users\     \Desktop\PyJava\pyjava.py", line 33, in <module>
+    MainClass.EntryPoint(args)
+  File "C:\Users\     \Desktop\PyJava\applet\com\capplesoft\LessLimitedSpace.py", line 10, in EntryPoint
+    exit()
+  File "C:\Users\     \AppData\Local\Python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\     \Desktop\PyJava\pyjava.py", line 37, in <module>
+    raise Exception()
+Exception
+
+C:\Users\     \Desktop\PyJava>py pyjava.py secondcraft com.capplesoft.Secondcraft debug
+pygame 2.1.2 (SDL 2.0.18, Python 3.10.2)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+This project uses        GL Framework
+C:\Users\     \Desktop\PyJava\applet\com\capplesoft\runtime\spritesheet.py:14: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if colorkey is -1:
+Oops! A PyJava applet error has occured and PyJava had to stop!
+To show the error, we will cause another error!
+Traceback (most recent call last):
+  File "C:\Users\     \Desktop\PyJava\pyjava.py", line 33, in <module>
+    MainClass.EntryPoint(args)
+  File "C:\Users\     \Desktop\PyJava\applet\com\capplesoft\Secondcraft.py", line 147, in EntryPoint
+    eh.dostuff()
+  File "C:\Users\     \Desktop\PyJava\applet\com\capplesoft\Secondcraft.py", line 127, in dostuff
+    exit()
+  File "C:\Users\     \AppData\Local\Python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\     \Desktop\PyJava\pyjava.py", line 37, in <module>
+    raise Exception()
+Exception
+
+C:\Users\     \Desktop\PyJava>
